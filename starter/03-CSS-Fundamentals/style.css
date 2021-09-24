@@ -116,3 +116,21 @@ a:active {
   background-color: black;
   font-style: italic;
 }
+
+/* resolving conflicts */
+/* #copyright {
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+.text {
+  color: yellow;
+}
+footer p {
+  color: rgba(149, 112, 218, 0.836) !important;
+}
+footer p {
+  color: green;
+} */
