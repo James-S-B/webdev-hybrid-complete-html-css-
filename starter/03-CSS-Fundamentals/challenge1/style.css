@@ -27,7 +27,7 @@ body {
   color: #777;
 }
 
-.more-info:link,
+:link,
 .more-info:visited {
   color: black;
 }
@@ -36,6 +36,7 @@ body {
 .more-info:active {
   text-decoration: none;
 }
+.more-info
 
 /* PRODUCT DETAILS */
 .details-title {
