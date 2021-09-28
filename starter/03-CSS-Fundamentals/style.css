@@ -1,9 +1,10 @@
 * {
-  /* border-top: 10px solid #1098ad;  */
+  /* border-top: 10px solid #1098ad; */
   margin: 0;
   padding: 0;
 }
 
+/* PAGE SECTIONS */
 body {
   color: #444;
   font-family: sans-serif;
@@ -19,14 +20,26 @@ body {
   margin: 0 auto;
 }
 
+.main-header {
+  background-color: #f7f7f7;
+  /* padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px; */
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  /* height: 80px; */
+}
+
 nav {
   font-size: 18px;
+  /* text-align: center; */
 }
 
 article {
   margin-bottom: 60px;
 }
 
+<<<<<<< HEAD
 .main-header {
   background-color: #f7f7f7;
   padding: 20px;
@@ -35,20 +48,24 @@ article {
   padding: 20px 40px;
   margin-bottom: 60px;
 }
+=======
+>>>>>>> fd3e78f7e0b319aae037e24ae655eb3f10115347
 .post-header {
   margin-bottom: 40px;
+  /* position: relative; */
 }
 
-/* h1,
-h2,
-h3,
-h4,
-p,
-li {
-  font-family: sans-serif;
-  /* color: #444; 
-} */
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
+  padding: 50px 0;
+  width: 500px;
+}
 
+/* SMALLER ELEMENTS */
 h1,
 h2,
 h3 {
@@ -57,20 +74,21 @@ h3 {
 
 h1 {
   font-size: 26px;
-
   text-transform: uppercase;
   font-style: italic;
 }
+
 h2 {
   font-size: 40px;
   margin-bottom: 30px;
 }
+
 h3 {
   font-size: 30px;
-  font-family: sans-serif;
   margin-bottom: 20px;
   margin-top: 40px;
 }
+
 h4 {
   font-size: 20px;
   text-transform: uppercase;
@@ -78,7 +96,7 @@ h4 {
 }
 
 p {
-  font-family: sans-serif;
+  font-size: 22px;
   line-height: 1.5;
   margin-bottom: 15px;
 }
@@ -92,17 +110,20 @@ ol {
 li {
   font-size: 20px;
   margin-bottom: 10px;
+  /* display: inline; */
+}
+
+li:last-child {
+  margin-bottom: 0;
 }
 
 /* footer p {
   font-size: 16px;
 } */
 
-/*
-article header p {
+/* article header p {
   font-style: italic;
-}
-*/
+} */
 
 #author {
   font-style: italic;
@@ -118,20 +139,20 @@ article header p {
   font-weight: bold;
 }
 
+/* ul {
+  list-style: none;
+} */
+
 .related {
   list-style: none;
 }
 
-aside {
-  background-color: #f7f7f7;
-  border-top: 5px solid #1098ad;
-  border-bottom: 5px solid #1098ad;
-  padding: 50px 0;
-  width: 500px;
+body {
+  /* background-color: orangered; */
 }
 
-/* body {
-  background-color: orangered;
+/* .first-li {
+  font-weight: bold;
 } */
 
 li:first-child {
@@ -140,24 +161,28 @@ li:first-child {
 
 li:last-child {
   font-style: italic;
-  margin-bottom: 0;
 }
 
-li:nth-child(odd) {
-  color: red;
+li:nth-child(even) {
+  /* color: red; */
 }
-/* misconception: this won't work */
+
+/* Misconception: this won't work! */
 article p:first-child {
   color: red;
 }
 
+/* Styling links */
 a:link {
   color: #1098ad;
   text-decoration: none;
 }
+
 a:visited {
+  /* color: #777; */
   color: #1098ad;
 }
+
 a:hover {
   color: orangered;
   font-weight: bold;
@@ -168,6 +193,7 @@ a:active {
   background-color: black;
   font-style: italic;
 }
+/* LVHA */
 
 .post-img {
   width: 100%;
@@ -177,7 +203,13 @@ a:active {
 nav a:link {
   /* background-color: orangered;
   margin: 20px;
+<<<<<<< HEAD
   padding: 20px; */
+=======
+  padding: 20px;
+  display: block; */
+
+>>>>>>> fd3e78f7e0b319aae037e24ae655eb3f10115347
   margin-right: 30px;
   margin-top: 10px;
   display: inline-block;
@@ -186,23 +218,65 @@ nav a:link {
 nav a:link:last-child {
   margin-right: 0;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> fd3e78f7e0b319aae037e24ae655eb3f10115347
 button {
   font-size: 22px;
   padding: 20px;
   cursor: pointer;
+<<<<<<< HEAD
   position: absolute;
   bottom: 50px;
   right: 50px;
 }
+=======
+
+  position: absolute;
+  /* top: 50px;
+  left: 50px; */
+  bottom: 50px;
+  right: 50px;
+}
+
+>>>>>>> fd3e78f7e0b319aae037e24ae655eb3f10115347
 h1::first-letter {
   font-style: normal;
   margin-right: 5px;
 }
+<<<<<<< HEAD
 /* resolving conflicts */
 /* #copyright {
+=======
+
+h3 + p::first-line {
+>>>>>>> fd3e78f7e0b319aae037e24ae655eb3f10115347
   color: red;
 }
 
+h2 {
+  /* background-color: orange; */
+  position: relative;
+}
+
+h2::before {
+  content: "TOP";
+  background-color: #ffe70e;
+  color: #444;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -10px;
+  right: -25px;
+}
+
+/* Resolving conflicts */
+/* #copyright {
+  color: red;
+}
 .copyright {
   color: blue;
 }
@@ -210,13 +284,10 @@ h1::first-letter {
   color: yellow;
 }
 footer p {
-  color: rgba(149, 112, 218, 0.836) !important;
-}
-footer p {
-  color: green;
+  color: green !important;
 } */
 
 /* nav a:link,
-a:p {
+nav p {
   font-size: 18px;
 } */
