@@ -39,6 +39,17 @@ article {
   margin-bottom: 60px;
 }
 
+<<<<<<< HEAD
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px;
+  /* padding-left: 40px;
+  padding-right: 40px; */
+  padding: 20px 40px;
+  margin-bottom: 60px;
+}
+=======
+>>>>>>> fd3e78f7e0b319aae037e24ae655eb3f10115347
 .post-header {
   margin-bottom: 40px;
   /* position: relative; */
@@ -192,9 +203,13 @@ a:active {
 nav a:link {
   /* background-color: orangered;
   margin: 20px;
+<<<<<<< HEAD
+  padding: 20px; */
+=======
   padding: 20px;
   display: block; */
 
+>>>>>>> fd3e78f7e0b319aae037e24ae655eb3f10115347
   margin-right: 30px;
   margin-top: 10px;
   display: inline-block;
@@ -203,11 +218,20 @@ nav a:link {
 nav a:link:last-child {
   margin-right: 0;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> fd3e78f7e0b319aae037e24ae655eb3f10115347
 button {
   font-size: 22px;
   padding: 20px;
   cursor: pointer;
+<<<<<<< HEAD
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+=======
 
   position: absolute;
   /* top: 50px;
@@ -216,12 +240,18 @@ button {
   right: 50px;
 }
 
+>>>>>>> fd3e78f7e0b319aae037e24ae655eb3f10115347
 h1::first-letter {
   font-style: normal;
   margin-right: 5px;
 }
+<<<<<<< HEAD
+/* resolving conflicts */
+/* #copyright {
+=======
 
 h3 + p::first-line {
+>>>>>>> fd3e78f7e0b319aae037e24ae655eb3f10115347
   color: red;
 }
 
